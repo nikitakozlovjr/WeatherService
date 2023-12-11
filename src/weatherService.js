@@ -5,7 +5,7 @@ class WeatherService {
         this.httpClient = httpClient;
     };
 
-    async requet(city) {
+    async request(city) {
         const url = new URL(`cities/${city}`, apiUrl);
         const response = await this.httpClient.get(url);
         return response;
