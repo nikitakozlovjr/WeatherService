@@ -10,7 +10,7 @@ class WeatherService {
 
     async request([lat, lon]) {
         const url = new URL(`lat=${lat}&lon=${lon}`, apiUrl);
-        const response = await this.httpClient.get(`${url}\nX-Yandex-API-Key: ${apiKey}`);
+        const response = await this.httpClient.get(url, {headers: {'X-Yandex-API-Key': apiKey}});
         const data = JSON.parse(response.data);
         return data;
     }
