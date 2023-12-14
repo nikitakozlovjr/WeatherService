@@ -23,3 +23,25 @@ npm link
 
 ___
 
+The Meteorological Service is waiting for the input of two parameters separated by a **space**:
+- latitude 
+- longitude
+  
+The command to call the weather `weatherservice`.
+
+```
+weatherservice 45.89 89.34
+```
+The decimal parts of latitude and longitude are passed through a dot.
+
+### The result of the service
+
+___
+
+The result of the service is the temperature at the moment and how this temperature feels. The first line mentions the Yandex Weather service, according to which the result is returned.
+
+### An example of the work
+
+____
+
+[![asciicast](https://asciinema.org/a/hGsXqZOIk2DsetqM9PK05b34x.svg)](https://asciinema.org/a/hGsXqZOIk2DsetqM9PK05b34x)
