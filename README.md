@@ -2,6 +2,8 @@
   <img alt="Yandex Weather" src="./img/logo_weather_ru_indoor.png">
 </picture>
 
+[![Maintainability](https://api.codeclimate.com/v1/badges/c588849596f27f112c5a/maintainability)](https://codeclimate.com/github/nikitakozlovjr/WeatherService/maintainability)
+
 # WeatherService
 ### Discription
 ___
