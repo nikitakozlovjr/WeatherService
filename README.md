@@ -1,5 +1,5 @@
 <picture>
-  <img alt="Yandex Weather" src=".img/../img/logo_weather_ru_indoor.png">
+  <img alt="Yandex Weather" src="./img/logo_weather_ru_indoor.png">
 </picture>
 
 # WeatherService
