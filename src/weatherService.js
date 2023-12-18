@@ -1,7 +1,7 @@
 import fs from 'node:fs';
 
 const apiUrl = 'https://api.weather.yandex.ru/v2/informers';
-const apiKey = fs.readFileSync('__fixtures__/api_key_weather.txt', 'utf-8');
+const apiKey = fs.readFileSync('assets/api_key.txt', 'utf-8');
 
 class WeatherService {
     constructor(httpClient) {
